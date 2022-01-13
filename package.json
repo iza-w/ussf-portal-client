@@ -100,7 +100,7 @@
     "passport-custom": "1.1.1",
     "prettier": "2.5.1",
     "sass": "1.43.4",
-    "sass-loader": "10.2.0",
+    "sass-loader": "12.4.0",
     "standard-version": "9.3.2",
     "storybook-addon-apollo-client": "4.0.9",
     "storybook-addon-next-router": "3.1.0",
