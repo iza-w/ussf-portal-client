@@ -10600,14 +10600,6 @@ isobject@^4.0.0:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-4.0.0.tgz#3f1c9155e73b192022a80819bacd0343711697b0"
   integrity sha512-S/2fF5wH8SJA/kmwr6HYhK/RI/OkhD84k8ntalo0iJjZikgq1XFvR5M8NPT1x5F7fBwCG3qHfnzeP/Vh/ZxCUA==
 
-isomorphic-unfetch@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/isomorphic-unfetch/-/isomorphic-unfetch-3.1.0.tgz#87341d5f4f7b63843d468438128cb087b7c3e98f"
-  integrity sha512-geDJjpoZ8N0kWexiwkX8F9NkTsXhetLPVbZFQ+JTW239QNOwvB0gniuR1Wc6f0AMTn7/mFGyXvHTifrCp/GH8Q==
-  dependencies:
-    node-fetch "^2.6.1"
-    unfetch "^4.2.0"
-
 istanbul-lib-coverage@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-3.0.0.tgz#f5944a37c70b550b02a78a5c3b2055b280cec8ec"
@@ -12261,15 +12253,13 @@ next-session@4.0.2:
     cookie "^0.4.1"
     nanoid "^3.1.25"
 
-next-test-api-route-handler@2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/next-test-api-route-handler/-/next-test-api-route-handler-2.3.4.tgz#748787ca4cf6b863c99ec2e695abde9ae887af54"
-  integrity sha512-hr92BcHjvRBlNnnCrqobvSiztOh1L5nn0TNKim00wecxxsCX2OM2QAxvmxr+vPsWr7VwrKfRNttfENmjKYsiCA==
+next-test-api-route-handler@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/next-test-api-route-handler/-/next-test-api-route-handler-3.0.2.tgz#8c6280198c3c25cb0a4d6771db31e69cdbd2d382"
+  integrity sha512-CxEvqaI0inOWwrFopTLlfLjDsfYm46VCwgyvWYc+iJ5bApW78IvD2QizKLdqiN907BM3XGaHKbp/N6XsXAEZGA==
   dependencies:
     cookie "^0.4.1"
-    debug "^4.3.2"
-    isomorphic-unfetch "^3.1.0"
-    test-listen "^1.1.0"
+    node-fetch "^2.6.6"
 
 next@12.0.7:
   version "12.0.7"
@@ -12437,7 +12427,7 @@ node-fetch@2.6.5:
   dependencies:
     whatwg-url "^5.0.0"
 
-node-fetch@^2.6.5:
+node-fetch@^2.6.5, node-fetch@^2.6.6:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
   integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
@@ -15729,11 +15719,6 @@ test-exclude@^6.0.0:
     "@istanbuljs/schema" "^0.1.2"
     glob "^7.1.4"
     minimatch "^3.0.4"
-
-test-listen@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/test-listen/-/test-listen-1.1.0.tgz#2ba614d96c3bc9157469003027b42a495dd83b6a"
-  integrity sha512-OyEVi981C1sb9NX1xayfgZls3p8QTDRwp06EcgxSgd1kktaENBW8dO15i8v/7Fi15j0IYQctJzk5J+hyEBId2w==
 
 text-extensions@^1.0.0:
   version "1.9.0"

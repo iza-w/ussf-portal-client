@@ -96,7 +96,7 @@
     "jest": "27.4.5",
     "jest-axe": "5.0.1",
     "lint-staged": "12.1.2",
-    "next-test-api-route-handler": "2.3.4",
+    "next-test-api-route-handler": "3.0.2",
     "passport-custom": "1.1.1",
     "prettier": "2.5.1",
     "sass": "1.43.4",
