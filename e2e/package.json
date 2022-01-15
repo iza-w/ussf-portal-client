@@ -4,10 +4,10 @@
   "description": "E2E tests for the USSF portal application",
   "private": true,
   "devDependencies": {
-    "@testing-library/cypress": "8.0.1",
+    "@testing-library/cypress": "8.0.2",
     "axe-core": "4.3.5",
     "cypress": "8.7.0",
-    "cypress-axe": "0.13.0",
+    "cypress-axe": "0.14.0",
     "mkdirp": "1.0.4",
     "mongodb": "3.7.3"
   }
